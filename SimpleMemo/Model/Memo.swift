@@ -11,9 +11,3 @@ import Foundation
 struct Memo {
     let title: String
 }
-
-extension Memo {
-    func toDictionary() -> [String: Any] {
-        return ["title": title]
-    }
-}
